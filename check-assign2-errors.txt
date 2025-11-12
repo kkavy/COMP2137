@@ -1,0 +1,66 @@
+--2025-11-12 16:14:02--  https://github.com/zonzorp/COMP2137/raw/main/makecontainers.sh
+Resolving github.com (github.com)... 140.82.113.4
+Connecting to github.com (github.com)|140.82.113.4|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://raw.githubusercontent.com/zonzorp/COMP2137/main/makecontainers.sh [following]
+--2025-11-12 16:14:02--  https://raw.githubusercontent.com/zonzorp/COMP2137/main/makecontainers.sh
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.109.133, 185.199.111.133, 185.199.108.133, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.109.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 15594 (15K) [text/plain]
+Saving to: ‘/home/student/makecontainers.sh’
+
+     0K .......... .....                                      100% 28.9M=0.001s
+
+2025-11-12 16:14:02 (28.9 MB/s) - ‘/home/student/makecontainers.sh’ saved [15594/15594]
+
+Warning: The unit file, source configuration file or drop-ins of netplan-ovs-cleanup.service changed on disk. Run 'systemctl daemon-reload' to reload units.
+WARNING:root:Cannot call Open vSwitch: ovsdb-server.service is not running.
+dpkg-preconfigure: unable to re-open stdin: No such file or directory
+Warning: Permanently added 'server1-mgmt' (ED25519) to the list of known hosts.
+grep: /etc/netplan/01-netcfg.yaml: No such file or directory
+cp: cannot stat '/etc/netplan/01-netcfg.yaml': No such file or directory
+
+** (generate:239): WARNING **: 21:15:32.132: Permissions for /etc/netplan/01-netcfg.yaml are too open. Netplan configuration should NOT be accessible by others.
+/etc/netplan/01-netcfg.yaml:1:5: Error in network definition: unknown key 'eth0'
+    eth0:
+    ^
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+debconf: unable to initialize frontend: Dialog
+debconf: (TERM is not set, so the dialog frontend is not usable.)
+debconf: falling back to frontend: Readline
+debconf: unable to initialize frontend: Readline
+debconf: (Can't locate Term/ReadLine.pm in @INC (you may need to install the Term::ReadLine module) (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.34.0 /usr/local/share/perl/5.34.0 /usr/lib/x86_64-linux-gnu/perl5/5.34 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl-base /usr/lib/x86_64-linux-gnu/perl/5.34 /usr/share/perl/5.34 /usr/local/lib/site_perl) at /usr/share/perl5/Debconf/FrontEnd/Readline.pm line 7, <> line 33.)
+debconf: falling back to frontend: Teletype
+dpkg-preconfigure: unable to re-open stdin: 
+Synchronizing state of apache2.service with SysV service script with /lib/systemd/systemd-sysv-install.
+Executing: /lib/systemd/systemd-sysv-install enable apache2
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+debconf: unable to initialize frontend: Dialog
+debconf: (TERM is not set, so the dialog frontend is not usable.)
+debconf: falling back to frontend: Readline
+debconf: unable to initialize frontend: Readline
+debconf: (This frontend requires a controlling tty.)
+debconf: falling back to frontend: Teletype
+dpkg-preconfigure: unable to re-open stdin: 
+Synchronizing state of squid.service with SysV service script with /lib/systemd/systemd-sysv-install.
+Executing: /lib/systemd/systemd-sysv-install enable squid
+
+** (generate:3569): WARNING **: 21:16:06.909: Permissions for /etc/netplan/01-netcfg.yaml are too open. Netplan configuration should NOT be accessible by others.
+/etc/netplan/01-netcfg.yaml:1:5: Error in network definition: unknown key 'eth0'
+    eth0:
+    ^
+Error: Command not found
+Error: Command not found
+
+** (generate:3743): WARNING **: 21:16:08.238: Permissions for /etc/netplan/01-netcfg.yaml are too open. Netplan configuration should NOT be accessible by others.
+/etc/netplan/01-netcfg.yaml:1:5: Error in network definition: unknown key 'eth0'
+    eth0:
+    ^
